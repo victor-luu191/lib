@@ -1,6 +1,6 @@
 # lib
 
-This repo contains Java src code of useful methods and classes frequently used in my projects (and some of you may find them handy :). Some places in this library make use of some methods from the popular _Commons Math_ library from Apache (huge thanks to developer team of Commons Math), so remember to include their library in your project when you use mine. Your feedback are warmly welcome. If you like my library please click on _Star_ button.
+This repo contains Java src code of useful methods and classes frequently used in my projects (and some of you may find them handy :). Some places in this library make use of some methods from the popular _Commons Math_ library from Apache (huge thanks to developer team of Commons Math), so remember to include their library in your project when you use mine. Your feedback are warmly welcome. If you like my library please click on __Star__ button.
 
 Most useful classes include:
 
@@ -12,4 +12,4 @@ Most useful classes include:
 
 + `Summary` for handy summary operations (_sum_, _mean_, _max_,...) over collections
 
-More useful stuffs will be added to this library.
+This library is still being developed. More useful stuffs will be added ASAP.
