@@ -1,5 +1,6 @@
 package myUtil;
 
+import java.util.Arrays;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -46,7 +47,24 @@ public class SetOps {
 			return setA.containsAll(setB);
 		}
 
-	
+		/**
+		 *  check if two sets of numbers are equal (though they may be different in element order)
+		 *	(e.g. {3,2,1} is the same as {1,2,3}) 
+		 *	Idea: if they are actually the same set and differ only in permutation
+		 *	then their sorted versions should be the same
+		 */
+		public static <T> boolean isEqual(Set<T> setA, Set<T> setB) {
+			if (setA.size() != setB.size()) {
+				return false;
+			} 
+			else {
+				T[] a = null ;
+				setA.toArray(a);	Arrays.sort(a);
+				T[] b = null;
+				setB.toArray(b);	Arrays.sort(b);
+				return Arrays.equals(a, b);
+			}
+		}
 	
 
 }
