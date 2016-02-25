@@ -10,6 +10,6 @@ Most useful classes include:
 
 + `Converters` for various conversions (e.g. array to vector, list of vectors to a matrix,...)
 
-+ `Summary` for handy summary operations (_sum_, _mean_, _max_,...) over collections
++ `Summary` for handy summary operations (_sum_, _mean_, _max_,...) over collections. `max()`, `min()` methods are generic, they accept any collection of _Comparable_ objects.
 
 This library is still being developed. More useful stuffs will be added ASAP.
